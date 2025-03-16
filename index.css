@@ -1,0 +1,60 @@
+body {
+    background-image: url("/pexels-photo-8148158.jpeg");
+    background-size: cover;
+    font-family: selawik,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+}
+
+p {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: -3px 3px 5px rgba(232, 121, 19, 0.89);
+}
+
+#wrapper {
+    max-width: 800px; /* Limits width to 800px */
+    margin: 0 auto; /* Centers the div */
+    padding: 20px; /* Adds space inside */
+    background-color: rgba(0, 0, 0, 0.35);
+    /* border: 1px solid #ccc; Optional: Adds a border */
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: coral;
+   border: 5px solid #E2EAF4;
+   box-shadow: -10px 10px 10px red;
+}
+
+#save-btn {
+    background: purple;
+    border: 5px solid #E2EAF4; 
+    box-shadow: 10px -10px 10px red;
+}
+
